@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi Khan - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+
+      body {
+        background-color: #f0f8ff;
+        color: aliceblue;
+        font-family: "Handjet", cursive;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #693aa2b9;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 30px;
+      }
+     
+      nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+      }
+      nav ul li a:hover {
+        color: black;
+      }
+      .left {
+        font-size: 2rem;
+      }
+     .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+      }
+      .second .hover{
+        display: flex;
+        justify-content: space-around;
+      }
+    
+      .first div {
+        width: 30%;
+      }
+      .leftSection {
+        background-color: none;
+        margin-left: 20px 0;
+      }
+      .rightSection {
+        font-size: 4rem;
+        color: black;
+        margin-top: 80px;
+      }
+      .purple {
+        color: #422368b9;
+      }
+      #element {
+        color: #422368b9;
+      }
+      .second {
+        max-width: 80pw;
+        margin: 25px 50px;
+        color: #422368b9;
+        height: 90vh;
+      }
+      .second .hover .leftedu .overlay{
+        color: #422368b9;
+      }
+      .third {
+        max-width: 80pw;
+        margin: 25px 50px;
+        color: #422368b9;
+        height: 90vh;
+      }
+      .fourth{
+        max-width: 80pw;
+        margin: 25px 50px;
+        color: #422368b9;
+        height: 90vh;
+      }
+      main hr {
+        margin-top: 20px;
+      }
+      .second h1 {
+        font-size: 2rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .third .line {
+        width: 80vw;
+        margin: 120px 0;
+        height: 2px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        position: center;
+      }
+      .third .line .verline{
+        height: 93px;
+        width: 2px;
+        background-color:black;
+        margin: 0 120px;
+      }
+      
+      .im1{
+        width: 80px;
+        position: relative;
+        top: -50px;
+        left: -30px;
+      }
+      .vertitle{
+        width: 150px;
+        position: relative;
+        top: 50px;
+       font-size: 25px;
+        left: -30px;
+      }
+      .vertext{
+        width: 150px;
+        position: relative;
+        top: 70px;
+        font-size: 25px;
+        left: -30px;
+      }
+      .first .leftSection .leftimage{
+        width: 500px;
+        height:500px;
+      }
+      footer{
+        background-color: rgb(130, 70, 130);
+        height: 230px;
+        padding: 30px 122px;
+        
+      }    
+      .footer{
+        justify-content: space-evenly;
+        display: flex;
+        
+      }
+      footer .flex  {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      footer ul li{
+        list-style: none;
+        margin: 20px 0;
+        font-size: larger;
+      }
+      .footer footsecond h1{
+        margin-top: 20px;
+      }
+      .footer footthird h1{
+        margin-top: 20px;
+      }
+      .footer > div{
+        width: 125px;
+      }
+      footer .textcenter{
+        text-align: center;
+        margin-top: -10px;
+      }
+      @media screen and (max-width: 600px) {
+        body{
+          background-color: aliceblue;
+          min-width: fit-content;
+        }
+        
+        .first{
+          flex-direction: column;
+        }
+        .second{
+          height: 180vh;
+        }
+        
+        .third{
+            flex-direction: column;
+            height: 240vh;
+            width: 100%;
+            display: flex;
+            margin-left: 100px;
+        }
+        .fourth{
+          flex-direction: column;
+            height: 240vh;
+            width: 100%;
+            display: flex;
+            margin-left: 100px;
+        }
+        .third .line{
+          flex-direction: column;
+          width: 50vw;
+        }
+        .third .line .verline{
+          height: 280px;
+        }
+        .vertitle{
+          left: 80px;
+          top: -130px;
+        }
+        .vertext{
+          left:80px;
+          top:-130px;
+        }
+        .third .line .verline .im1{
+          margin-top: 200px;
+        }
+        footer{
+          display:flex;
+          flex-direction: column ;
+          justify-content: space-evenly;
+          width: 100%;
+          height: 100%;
+        }
+        nav{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 100%;
+          width: 100%;
+        }
+        .first .leftSection{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .first .leftSection .leftimage{
+          width: 350px;
+          height: 400px;
+          margin-left: 15px;
+        }
+        .first .rightSection{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 50px;
+        }
+        .second{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 100px;
+        }
+        
+        .second .hover{ 
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: safe;
+        }
+       
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+        <div class="left">Khushi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="leftSection">
+          <img class="leftimage" src="i1.png" alt="" >
+        </div>
+        <div class="rightSection">
+          Hi, My name is <span className="purple">Khushi Khan</span>.
+          <div>I am a passionate</div>
+          <span id="element"></span>
+        </div>
+      </section>
+      <hr>
+      <section class="second">
+        <span class="text-gray">Level 1:Academic Background</span>
+        <h1>Education</h1>
+        <div class="hover">
+        <div class="leftedu">
+          <img src="school.png" class="image" style="width:400px";"height:450px" >
+          <div class="overlay">
+            <h1 class="title">HARTMANN COLLEGE- I.S.C</h1>
+            <h2 class="subtitle">(Bareilly-U.P.,India)</h2>
+            <h2 class="info1">Percentage of 12th: 87.5%</h2>
+            <h2 class="info2">Percentage of 10th: 89.4%</h2>
+            <h2 class="info3">Post: Cabinet Member of the students' parliament</h2>
+          </div>
+        </div>
+        <div class="rightedu">
+          <img src="college.png" class="image2" style="width:400px";"height:450px" >
+          <div class="overlay2">
+            <h1>SRMS CET, AKTU University</h1>
+            <h2>(Bareilly-U.P.,India)</h2>
+            <h2>B.TECH in Computer Science</h2>
+            <h2>SGPA of Second year: 8.48</h2>
+            <h2>SGPA of First year: 8.19</h2>
+            <h2>Post: Media Relations Club Chairperson</h2>
+          </div>
+      </div>
+      </section>
+      <hr>
+    <div class="third">
+      <div class="courses">
+        <span class="text-gray">Level 2:Certifications</span>
+        <h1>COURSES</h1>
+      </div>
+      <div class="line">
+        <div class="verline">
+          <img class="im1" src="webd.png" alt="">
+          <div class="vertitle">
+            WEB DEVELOPMENT (May-2021)
+          </div>
+          <div class="vertext">
+            HTML5 and CSS3 under 'Code with Mosh'
+          </div>
+        </div>
+      <div class="verline">
+        <img class="im1" src="python.png" alt="">
+        <div class="vertitle">
+          PYTHON PROGRAMMING (2021-2022)
+        </div>
+        <div class="vertext">
+         Python Programming - a practical approach from E & ICT Academy, IIT Kanpur
+        </div>
+      </div>
+      <div class="verline">
+        <img class="im1" src="android.png" alt="">
+        <div class="vertitle">
+          ANDROID DEVELOPMENT (March-2023)
+        </div>
+        <div class="vertext">
+         Android Develpment Workshop under Techkriti'23 from IIT Kanpur
+        </div>
+      </div>
+      <div class="verline">
+        <img class="im1" src="iot.jpg" alt="">
+        <div class="vertitle">
+          IOT (March-2023)
+        </div>
+        <div class="vertext">
+         Internet of Things Workshop under Techkriti'23 from IIT Kanpur
+        </div>
+      </div>
+      <div class="verline">
+        <img class="im1" src="block.jpg" alt="">
+        <div class="vertitle">
+          BLOCKCHAIN (March-2023)
+        </div>
+        <div class="vertext">
+         Blockchain Workshop under Techkriti'23 from IIT Kanpur
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="fourth">
+      <span class="text-gray">Level 3:Competitions</span>
+      <h1>AWARDS</h1>
+    </div>
+    </main>
+    <footer>
+      <div class="flex">
+        <div class="footfirst">
+          <h1>KHUSHI KHAN</h1>
+          <h2>khushikhan6272@gmail.com</h2>
+        </div>
+        <div class="footsecond">
+          <a href="https://www.linkedin.com/in/khushi-khan-142a48215"><img src="linkedin.png" alt="" style="width: 80px";"height= 160px" ></a>
+           <h1>Linkedin</h1>
+        </div>
+        <div class="footthird">
+          <img src="khushi.jpg" alt="" style="width: 80px";"height= 160px" >
+          <h1>Profile</h1>
+        </div>
+        <div class="footfourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </div>
+      <div class="textcenter">
+        Copyright &#169;Portfolio Website | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "UX/ UI Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
